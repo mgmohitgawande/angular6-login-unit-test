@@ -10,6 +10,10 @@ export class RegisterComponent implements OnInit {
     registerForm: FormGroup;
     loading = false;
     submitted = false;
+    usernameLabel: string = 'Username';
+    passwordLabel: string = 'Password';
+    firstNameLabel: string = 'First Name';
+    lastNameLabel: string = 'Last Name';
 
     constructor(
         private formBuilder: FormBuilder,

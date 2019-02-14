@@ -11,6 +11,8 @@ export class LoginComponent implements OnInit {
     loading = false;
     submitted = false;
     returnUrl: string;
+    usernameLabel: string = 'Username';
+    passwordLabel: string = 'Password';
 
     constructor(
         private formBuilder: FormBuilder,

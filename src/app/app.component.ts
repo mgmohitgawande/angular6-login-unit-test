@@ -5,4 +5,9 @@ import { Component } from '@angular/core';
     templateUrl: 'app.component.html'
 })
 
-export class AppComponent { }
+export class AppComponent { 
+    description: String = 'Angular 6 User Registration and Login Example & Tutorial';
+    webLink: String = 'JasonWatmore.com'; 
+
+    constructor(){}
+}

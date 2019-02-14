@@ -31,6 +31,9 @@ import { RegisterComponent } from './register';
         LoginComponent,
         RegisterComponent
     ],
+    exports: [
+        ReactiveFormsModule
+    ],
     providers: [
         AuthGuard,
         AlertService,
